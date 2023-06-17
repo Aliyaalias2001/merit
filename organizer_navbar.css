@@ -1,0 +1,55 @@
+/* organizer_navbar.css */
+.navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-toggler {
+    border-color: #6c757d;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(108, 117, 125, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-nav .nav-link {
+    color: #343a40;
+    font-weight: bold;
+  }
+  
+  .nav-link.dropdown-toggle::after {
+    display: none;
+  }
+  
+  .dropdown-menu {
+    background-color: #f8f9fa;
+    border-color: #6c757d;
+  }
+  
+  .dropdown-item {
+    color: #343a40;
+  }
+  
+  .dropdown-item:hover, .dropdown-item:focus {
+    background-color: #e9ecef;
+    color: #343a40;
+  }
+  
+  .form-control {
+    border-color: #6c757d;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover, .btn-primary:focus {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .fa-search {
+    color: #343a40;
+  }
+  
+  

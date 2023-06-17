@@ -1,0 +1,50 @@
+/* Add some margin and padding to the container */
+.container {
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  /* Center the heading and add some space */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the table */
+  #my-event {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Add spacing between table cells */
+  #my-event th,
+  #my-event td {
+    padding: 10px;
+  }
+  
+  /* Apply striped background to table rows */
+  #my-event tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style the table header */
+  #my-event thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Style the table header cells */
+  #my-event th {
+    text-align: center;
+  }
+  
+  /* Center the table content */
+  #my-event td {
+    text-align: center;
+  }
+  
+  /* Style the star icon */
+  .fa-star {
+    color: gold;
+  }
+  

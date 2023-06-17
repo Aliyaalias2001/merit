@@ -1,0 +1,49 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: #F4D03F;
+  /* Set the background color */
+}
+
+.search-bar input {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 200px;
+}
+
+.search-bar button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* Custom dropdown styles */
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #F4D03F;
+  color: #333;
+}
+
+.dropdown-menu {
+  min-width: 10rem;
+  background-color: #ddd;
+  border: none;
+}
+
+.dropdown-menu a {
+  color: #333;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu a:focus {
+  background-color: #F4D03F;
+  color: #333;
+}
+
+/* Active menu item */
+.active-link {
+  font-weight: bold;
+}
